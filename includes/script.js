@@ -104,7 +104,7 @@ function cacheProgress(e) {
     document.title = 'Bashir electronic ' + p + '%';
 }
 function cacheDone() {
-    document.title = 'Mustafa';
+    document.title = 'Bashir';
 }
 
 // ===== ON LOAD =====
