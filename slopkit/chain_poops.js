@@ -41,14 +41,14 @@ const STOP_BEFORE_DOUBLE = params.get("stop") === "beforedouble";
 function hostOk() {
     var m = document.getElementById("msgs");
     if (m) {
-        m.innerHTML = "تم تحميل GoldHEN بنجاح .تحياتي، بشير ...";
+        m.innerHTML = "تم تحميل GoldHEN بنجاح .تحياتي، مركز بشير ...";
     }
 }
 
 function hostFail() {
     var m = document.getElementById("msgs");
     if (m) {
-        m.innerHTML = "فشل التحميل! أعد تشغيل جهازك .تحياتي، بشير ...";
+        m.innerHTML = "فشل التحميل! أعد تشغيل جهازك .تحياتي، مركز بشير ...";
         m.style.color = "yellow";
     }
 }
@@ -173,7 +173,7 @@ let payloadRunning = false;
         if (!off) {
             var m = document.getElementById("msgs");
             if (m) {
-                m.innerHTML = 'هذا السوفت غير مدعوم للأسف.تحياتي، بشير <span style="color: red;">'
+                m.innerHTML = 'هذا السوفت غير مدعوم للأسف.تحياتي، مركز بشير <span style="color: red;">'
                     + (key || "Unknown") + '</span>';
             }
             mark("NO-OFFSETS", key || "unknown");
@@ -455,7 +455,7 @@ let payloadRunning = false;
                 mark("ALREADY-ROOT", "getuid=" + uid0 + " setuid(0)=" + su0);
                 var m = document.getElementById("msgs");
                 if (m) {
-                    m.innerHTML = "تم تحميل GoldHEN بالفعل .تحياتي، بشير....";
+                    m.innerHTML = "تم تحميل GoldHEN بالفعل .تحياتي، مركز بشير....";
                 }
                 return;
             }
