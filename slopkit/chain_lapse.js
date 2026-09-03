@@ -43,7 +43,7 @@ function hostOk() {
 function hostFail() {
     var m = document.getElementById("msgs");
     if (m) {
-        m.innerHTML = "فشل التحميل! أعد تشغيل جهازك ...";
+        m.innerHTML = "فشل التفعيل! يرجى إعادة تشغيل جهاز PS4.تحياتي، بشير...";
         m.style.color = "yellow";
     }
 }
@@ -676,7 +676,7 @@ function makeRpc(worker) {
                 mark("ALREADY-ROOT", "getuid=" + uid0 + " setuid(0)=" + su0);
                 var m = document.getElementById("msgs");
                 if (m) {
-                    m.innerHTML = "تم تفعيل GoldHEN  بنجاح .تحياتي، بشير ...";
+                    m.innerHTML = "تم تحميل GoldHEN بالفعل .تحياتي، بشير....";
                 }
                 return;
             }
