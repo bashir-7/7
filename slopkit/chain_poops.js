@@ -455,7 +455,7 @@ let payloadRunning = false;
                 mark("ALREADY-ROOT", "getuid=" + uid0 + " setuid(0)=" + su0);
                 var m = document.getElementById("msgs");
                 if (m) {
-                    m.innerHTML = "تم تحميل GoldHEN بنجاح .تحياتي، بشير ...";
+                    m.innerHTML = "تم تحميل GoldHEN بالفعل .تحياتي، بشير....";
                 }
                 return;
             }
