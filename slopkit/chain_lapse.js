@@ -36,14 +36,14 @@ const lines = [];
 function hostOk() {
     var m = document.getElementById("msgs");
     if (m) {
-        m.innerHTML = "تم تحميل GoldHEN بالفعل .تحياتي، بشير ...";
+        m.innerHTML = "تم تحميل GoldHEN بالفعل .تحياتي، مركز بشير ...";
     }
 }
 
 function hostFail() {
     var m = document.getElementById("msgs");
     if (m) {
-        m.innerHTML = "فشل التفعيل! يرجى إعادة تشغيل جهاز PS4.تحياتي، بشير...";
+        m.innerHTML = "فشل التفعيل! يرجى إعادة تشغيل جهاز PS4.تحياتي، مركز بشير...";
         m.style.color = "yellow";
     }
 }
@@ -676,7 +676,7 @@ function makeRpc(worker) {
                 mark("ALREADY-ROOT", "getuid=" + uid0 + " setuid(0)=" + su0);
                 var m = document.getElementById("msgs");
                 if (m) {
-                    m.innerHTML = "تم تحميل GoldHEN بالفعل .تحياتي، بشير....";
+                    m.innerHTML = "تم تحميل GoldHEN بالفعل .تحياتي، مركز بشير....";
                 }
                 return;
             }
