@@ -6,7 +6,7 @@
 
 ## 🌐 رابط الموقع المباشر
 يمكنك الوصول للموقع عبر GitHub Pages من خلال الرابط التالي:  
-👉 **[bashir-7.github.io/7](https://bashir-7.github.io/7)**
+👉 **[bashir-7.github.io/7](https://bashir-7.github.io**
 
 ---
 
